@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # ---------------- PAGE SETUP ----------------
-st.set_page_config(page_title="🌍 Weather Dashboard", page_icon="🌦", layout="wide")
+st.set_page_config(page_title="🌍 ClimaSphere", page_icon="🌦", layout="wide")
 
 # ---------------- CUSTOM STYLING WITH WEATHER-THEMED BACKGROUND ----------------
 st.markdown(
@@ -72,7 +72,7 @@ st.markdown(
 )
 
 # ---------------- TITLE ----------------
-st.title("🌦 Weather Dashboard")
+st.title("❄️🍂Clima Sphere🌞☔")
 st.caption("Get live weather updates & 7-day trends — powered by Open-Meteo API")
 
 # ---------------- LANGUAGE SELECTION ----------------
@@ -176,3 +176,8 @@ for i in range(0, len(cities), cards_per_row):
                     st.pyplot(fig)
 
             st.markdown("</div>", unsafe_allow_html=True)
+        
+    
+   
+    
+
