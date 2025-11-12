@@ -1,3 +1,7 @@
 ssl
 certifi
+matplotlib
 geopy
+streamlit
+requests
+pytz
