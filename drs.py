@@ -176,8 +176,3 @@ for i in range(0, len(cities), cards_per_row):
                     st.pyplot(fig)
 
             st.markdown("</div>", unsafe_allow_html=True)
-        
-    
-   
-    
-
